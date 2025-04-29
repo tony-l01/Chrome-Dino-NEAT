@@ -2,12 +2,47 @@
 
 An AI developed to play the Chrome dinosaur game by utilizing the NEAT algorithm in Python.
 
-### Installing Dependency
+## How does it work
 
-Enter this command in the terminal
+### AI Inputs
 
-    pip install -r requirements.txt
+The ai gets 6 inputs from the game.
 
+* Distance between the dino and obstacle
+* Dino Y position
+* Obstacle width
+* Obstacle height
+* Obstacle Y position
+* Speed
+
+### AI Outputs
+
+Inputs are processed by the neural network. The network's output dictates the dino's action by identifying the highest output values.
+
+### Fitness function
+
+The fitness function is the score of the dino.
+It's calculated using the following rules:
+
+* +1 if the dino successfully passed the obstacle
+* -1 if the dino collide with the obstacle
+* +0.01 for every frame the dino is alive
+* stop the game if all the dino dies
+
+## Getting Started
+
+### Installation
+
+1. Clone the repo
+   ```
+   git clone https://github.com/DocusDukus/Chrome-Dino-NEAT.git
+   ```
+
+2. Install the requirements
+   ```
+   pip install -r requirements.txt
+
+   ```
 ## Running the code
 
 There are three executable files: `run_game.py`, `run_neat.py`, `train_neat.py`
@@ -39,8 +74,3 @@ https://github.com/user-attachments/assets/bd1f0b01-5b3f-4512-a76b-f73cd675cb2f
 Debug Mode: `F1`:
 
 https://github.com/user-attachments/assets/4acac6c8-4ca7-4e52-90ba-1cca0df7b150
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
