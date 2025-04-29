@@ -30,6 +30,16 @@ Run the best generated Dino by entering the command in the terminal
 
     python run_neat.py
 
+### Demo
+
+Fully Trained AI:
+
+https://github.com/user-attachments/assets/bd1f0b01-5b3f-4512-a76b-f73cd675cb2f
+
+Debug Mode: `F1`:
+
+https://github.com/user-attachments/assets/4acac6c8-4ca7-4e52-90ba-1cca0df7b150
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
