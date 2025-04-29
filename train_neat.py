@@ -24,6 +24,7 @@ def get_score():
     global score, speed
     score += 1
     if score % 100 == 0:
+        # Capped due to physics
         if speed < 51:
             speed += 1
     
