@@ -41,7 +41,6 @@ It's calculated using the following rules:
 2. Install the requirements
    ```
    pip install -r requirements.txt
-
    ```
 ## Running the code
 
