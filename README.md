@@ -35,7 +35,7 @@ It's calculated using the following rules:
 
 1. Clone the repo
    ```
-   git clone https://github.com/DocusDukus/Chrome-Dino-NEAT.git
+   git clone https://github.com/tony-l01/Chrome-Dino-NEAT.git
    ```
 
 2. Install the requirements
